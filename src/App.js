@@ -8,13 +8,12 @@ import styled from "styled-components";
 
 const AppStyle = styled.div`
 background-color: grey;
-
 `;
 const AppDivStyle = styled.div`
 background-color: lightgrey;
 border:2px solid black;
 width: 1024px;
-margin: auto;
+margin: 0 auto;
 display: flex;
 flex-direction: column;
 align-items: center;

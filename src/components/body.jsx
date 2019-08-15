@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const BodySytle = styled.div` 
 width: 90%;
-// border:2px solid blue;
     h2{
         padding: 2.5%;
         border-bottom:2px solid black;
