@@ -1,11 +1,11 @@
 import React from "react";
-const imgDiv = (props) => {
+const ImgDiv = (props) => {
     
     return(
         <div className="img-div">
-            <img src="" alt=""/>
+            <img src={props.url} alt=""/>
         </div>
     );
 };
 
-export default imgDiv;
+export default ImgDiv;
