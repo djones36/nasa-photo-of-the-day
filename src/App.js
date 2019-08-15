@@ -4,9 +4,17 @@ import axios from "axios";
 import HeaderDiv from "./components/header";
 import ImgDiv from "./components/img";
 import BodyText from "./components/body";
+import styled from "styled-components";
 
-
-
+const AppStyle = styled.div`
+background-color: grey;
+`;
+const AppDivStyle = styled.div`
+background-color: lightgrey;
+border:2px solid black;
+width: 1024px;
+margin: auto;
+`;
 
 function App() {
   const [card, setCard] = useState();
@@ -24,13 +32,13 @@ function App() {
   if(!card)return <h3>loading...</h3>;
 
   return (
-    <div className="site-wrapper">
+    <AppStyle className="site-wrapper">
       <HeaderDiv/>
-      <div className="App">
+      <AppDivStyle className="App">
         <ImgDiv url={card.url}/>
         <BodyText title={card.title} date={card.date} exp={card.explanation} />
-      </div>
-    </div>//site wrapper
+      </AppDivStyle>
+    </AppStyle>//site wrapper
   );
 }
 
