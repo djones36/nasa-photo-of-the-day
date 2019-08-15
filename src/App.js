@@ -1,5 +1,8 @@
 import React from "react";
 import "./App.css";
+import headerDiv from "./components/header";
+import imgDiv from "./components/img";
+import bodyText from "./components/bodytext";
 import ReloadButton from "./components/button";
 
 
