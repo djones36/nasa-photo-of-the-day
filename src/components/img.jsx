@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const ImgStyle = styled.div`
-padding: 1%;
+padding: 5%;
     img{
         width: 80%;
         height:auto:    }

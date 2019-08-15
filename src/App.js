@@ -12,6 +12,7 @@ background-color: grey;
 const AppDivStyle = styled.div`
 background-color: lightgrey;
 border:2px solid black;
+padding: 5%;
 width: 1024px;
 margin: 0 auto;
 display: flex;
