@@ -12,10 +12,11 @@ function App() {
   const [card, setCard] = useState();
   
   useEffect(() =>{
-    axios.get('https://api.nasa.gov/planetary/apod?api_key=mhdnNKgBrx7O8X5dUViYetbmiNuLhzkxCPFjOg94&date=2012-03-14')
-    .then((success) => {
-      console.log(success.data);
-      const nasaData =  success.data;
+    axios.get('https://api.nasa.gov/planetary/apod?api_key=mhdnNKgBrx7O8X5dUViYetbmiNuLhzkxCPFjOg94')
+    .then((response) => {
+      // const {data} = response
+      console.log(response.data);
+      const nasaData =  response.data;
       setCard(nasaData)
     })
   }, [])
