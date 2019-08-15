@@ -4,7 +4,7 @@ import styled from "styled-components";
 const ImgStyle = styled.div`
 padding: 5%;
     img{
-        width: 80%;
+        width: 90%;
         height:auto:    }
 `;
 

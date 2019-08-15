@@ -14,6 +14,7 @@ background-color: lightgrey;
 border:2px solid black;
 padding: 5%;
 width: 1024px;
+height:auto;
 margin: 0 auto;
 display: flex;
 flex-direction: column;
