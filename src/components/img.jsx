@@ -1,9 +1,18 @@
 import React from "react";
+import styled from "styled-components";
+
+const ImgStyle = styled.div`
+padding: 1%;
+    img{
+        width: 80%;
+        height:auto:    }
+`;
+
 const ImgDiv = (props) => {
     return(
-        <div className="img-div">
+        <ImgStyle className="img-div">
             <img src={props.url} alt="planet"/>
-        </div>
+        </ImgStyle>
     );
 };
 
