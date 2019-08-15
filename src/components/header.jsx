@@ -1,6 +1,6 @@
 import React from "react";
 
-let headerDiv = () => {
+const HeaderDiv = () => {
     return(
         <header>
             <h1>
@@ -10,4 +10,4 @@ let headerDiv = () => {
     );
 }
 
-export default headerDiv;
+export default HeaderDiv;
